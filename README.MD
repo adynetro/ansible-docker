@@ -1,13 +1,13 @@
 # Ansible demo 
 
-'''sh
+```sh
 apt install ansible
-''' 
+``` 
 
-'''sh
+```sh
 ansible-galaxy collection install community.docker
-'''
+```
 
-'''sh
+```sh
 ansible all -m ping
-'''
+```
